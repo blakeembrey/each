@@ -1,0 +1,47 @@
+# Each
+
+Iterate over an object, array or string.
+
+## Installation
+
+```
+npm install blakeembrey/each --save
+```
+
+## Usage
+
+```javascript
+var each = require('each');
+
+// Iterate over objects.
+each({
+  a: 0,
+  b: 1,
+  c: 2
+}, function (value, key, obj) {
+  console.log([value, key, obj]);
+  //=> [0, 'a', { a: 0, b: 1, c: 2 }]
+  //=> [1, 'b', { a: 0, b: 1, c: 2 }]
+  //=> [2, 'c', { a: 0, b: 1, c: 2 }]
+});
+
+// Iterate over arrays.
+each(['a', 'b', 'c'], function (value, key, obj) {
+  console.log([value, key, obj]);
+  //=> ['a', 0, ['a', 'b', 'c']]
+  //=> ['b', 1, ['a', 'b', 'c']]
+  //=> ['c', 2, ['a', 'b', 'c']]
+});
+
+// Iterate over strings.
+each('abc', function (value, key, obj) {
+  console.log([value, key, obj]);
+  //=> ['a', 0, 'abc']
+  //=> ['b', 1, 'abc']
+  //=> ['c', 2, 'abc']
+});
+```
+
+## License
+
+MIT
