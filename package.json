@@ -1,6 +1,6 @@
 {
   "name": "each",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Iterate over an object, array or string",
   "main": "each.js",
   "scripts": {
