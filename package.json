@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/blakeembrey/each",
   "devDependencies": {
-    "mocha": "~1.17.0",
-    "istanbul": "~0.2.3"
+    "istanbul": "^0.3.0",
+    "mocha": "^1.21.4"
   }
 }
