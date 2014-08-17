@@ -5,13 +5,13 @@ Iterate over an object, array or string.
 ## Installation
 
 ```
-npm install blakeembrey/each --save
+npm install util-each --save
 ```
 
 ## Usage
 
 ```javascript
-var each = require('each');
+var each = require('util-each');
 
 // Iterate over objects.
 each({

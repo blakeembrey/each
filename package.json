@@ -1,5 +1,5 @@
 {
-  "name": "each",
+  "name": "util-each",
   "version": "0.0.1",
   "description": "Iterate over an object, array or string",
   "main": "each.js",

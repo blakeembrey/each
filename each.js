@@ -1,3 +1,5 @@
+var hasOwn = Object.prototype.hasOwnProperty;
+
 /**
  * Iterate over any object, calling the callback function on every iteration.
  *
@@ -15,7 +17,7 @@ module.exports = function (obj, fn, context) {
     for (var key in obj) {
       // Use the Object prototype directly in case the object we are iterating
       // over does not inherit from `Object.prototype`.
-      if (Object.prototype.hasOwnProperty.call(obj, key)) {
+      if (hasOwn.call(obj, key)) {
         fn.call(context, obj[key], key, obj);
       }
     }
