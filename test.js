@@ -54,4 +54,8 @@ describe('Each', function () {
       assert(value !== 'property');
     });
   });
+
+  it('should not fail with undefined value', function () {
+    each(null /*, function () {} */);
+  });
 });

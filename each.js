@@ -9,7 +9,7 @@ var hasOwn = Object.prototype.hasOwnProperty;
  */
 module.exports = function (obj, fn, context) {
   // Iterate over array-like objects numerically.
-  if (obj.length === +obj.length) {
+  if (obj != null && obj.length === +obj.length) {
     for (var i = 0; i < obj.length; i++) {
       fn.call(context, obj[i], i, obj);
     }
