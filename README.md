@@ -1,11 +1,9 @@
 # Each
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/each.svg)](https://greenkeeper.io/)
-
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
-[![Gittip][gittip-image]][gittip-url]
+[![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/each.svg)](https://greenkeeper.io/)
 
 Iterate over an object, array or string.
 
@@ -59,5 +57,3 @@ MIT
 [travis-url]: https://travis-ci.org/blakeembrey/each
 [coveralls-image]: https://img.shields.io/coveralls/blakeembrey/each.svg?style=flat
 [coveralls-url]: https://coveralls.io/r/blakeembrey/each?branch=master
-[gittip-image]: https://img.shields.io/gittip/blakeembrey.svg?style=flat
-[gittip-url]: https://www.gittip.com/blakeembrey
